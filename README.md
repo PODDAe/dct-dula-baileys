@@ -74,18 +74,17 @@
 
 ### Via NPM
 ```bash
-npm install @dct-dula/baileys
+npm install dct-dula-dev-baileys
 ```
 
 ### Via Yarn
 ```bash
-yarn add @dct-dula/baileys
+yarn add dct-dula-dev-baileys
 ```
 
 ### Clone Repository
 ```bash
 git clone <repository-url>
-cd dtz-baileys
 npm install
 ```
 
@@ -96,7 +95,7 @@ npm install
 ### Basic Bot
 
 ```javascript
-const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@dct-dula/baileys');
+const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('dct-dula-dev-baileys');
 const P = require('pino');
 
 async function startBot() {
